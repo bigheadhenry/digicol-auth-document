@@ -17,7 +17,9 @@ Do not use this skill for pure Q&A without file edits.
 1. Complete the requested edits first.
 2. Compare edited files against previous state (`git diff` or equivalent).
 3. Produce a mandatory summary in the final response.
-4. If the user requested GitHub submission, commit with a clear message and push.
+4. Append the same summary to root document `版本更新内容.md`.
+5. If `版本更新内容.md` does not exist, create it first in repository root.
+6. If the user requested GitHub submission, commit with a clear message and push.
 
 ## Required Summary Format
 Use exactly these sections after every edit task:
@@ -35,6 +37,17 @@ Use exactly these sections after every edit task:
 ### 4) 提交信息（如已提交）
 - Commit hash and message.
 - Remote branch and push status.
+
+## Root Version Log Requirement
+- File path: `./版本更新内容.md`
+- After every edit task, append one new entry.
+- Entry must include:
+  - Date/time
+  - 修改文件
+  - 修改前 -> 修改后
+  - 修改意义
+  - 提交信息（如有）
+- Newest entry should be added at top for quick review.
 
 ## Quality Bar
 - No vague lines like “优化了一下” without concrete detail.
