@@ -1,0 +1,20 @@
+# 数字文物库对外授权规范与平台方案
+
+本项目依据 `Reference/` 中的《数字资源管理办法》与《数字资源授权规定及费用表》重编，形成覆盖制度、流程、系统与风控的完整执行方案。
+
+## 文档目录
+- **[01-summary](./01-summary/README.md)**：项目定位、目标、边界与实施路线
+- **[02-standards-and-terms](./02-standards-and-terms/README.md)**：授权依据、术语、规则与价格口径
+- **[03-architecture](./03-architecture/README.md)**：系统总体架构与核心能力设计
+- **[04-processes](./04-processes/README.md)**：对外授权与内部审批流程
+- **[05-domain-design](./05-domain-design/README.md)**：核心领域模型与关键状态机
+- **[06-requirements](./06-requirements/README.md)**：门户端/管理端功能需求清单
+- **[07-auth-and-audit](./07-auth-and-audit/README.md)**：角色权限体系与审计策略
+- **[08-nfr](./08-nfr/README.md)**：非功能需求与合规控制基线
+- **[09-risks](./09-risks/README.md)**：风险清单、应对策略与待办计划
+
+## 编制原则
+1. **制度先行**：以授权规则与管理办法作为系统设计约束。
+2. **闭环执行**：申请、审批、签约、支付、交付、留痕、复核全链路闭环。
+3. **安全优先**：数字资源全生命周期安全与可追溯优先于便利性。
+4. **可运营**：规则可配置、价格可计算、流程可审计、数据可统计。
