@@ -1,0 +1,7 @@
+version: 1
+display_name: Change Summary After Edit
+short_description: Mandatory before/after change summary after edits
+default_prompt: >-
+  After completing edits, provide a required summary with modified files,
+  before-vs-after differences, and practical significance; include commit/push
+  details when GitHub submission is requested.
